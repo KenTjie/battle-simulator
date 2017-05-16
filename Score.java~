@@ -1,0 +1,33 @@
+/*
+ Score
+ Class to contain instance of BattleFrame
+ @author Ken Tjie
+ @version 1.1 2016 - 12 - 01
+*/
+
+public class Score {
+  private String name;
+  private int points, levelsBeat;
+  
+  public Score (String name, int points, int levelsBeat) {
+    this.name = name;
+    this.points = points;
+    this.levelsBeat = levelsBeat;
+  }//end constructor
+  
+  public String getName() {
+    return name;
+  }//end getName
+  
+  public int getPoints() {
+    return points;
+  }//end 
+  
+  public int getLevels() {
+    return levelsBeat;
+  }//end getLevels
+  
+  public String toString () {
+    return "Name: " + name + "          Points: " + points + "          Levels Beat: " + levelsBeat + "\n\n";
+  }//end toString
+}//end class

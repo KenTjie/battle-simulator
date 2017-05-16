@@ -1,0 +1,37 @@
+Bob
+HP: 404
+Attack: 181
+Defense: 225
+
+
+Opponant's Party: 
+Vanilluxe
+HP: 346
+Attack: 247
+Defense: 214
+
+Reuniclus
+HP: 424
+Attack: 280
+Defense: 192
+
+Kangaskhan
+HP: 414
+Attack: 280
+Defense: 225
+
+Alakazam
+HP: 314
+Attack: 302
+Defense: 214
+
+Dialga
+HP: 404
+Attack: 335
+Defense: 269
+
+Ho-oh
+HP: 416
+Attack: 291
+Defense: 344
+
