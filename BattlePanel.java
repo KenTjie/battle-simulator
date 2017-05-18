@@ -25,7 +25,7 @@ import java.io.PrintWriter;
 import java.io.FileNotFoundException;
 
 public class BattlePanel extends JPanel implements ActionListener, KeyListener {
-  int velX = 0, velY = 0, bossMove = 1, playerPP = 10, level = 6, points = 0; //player's x and y velocity, boss's velocity, player power points, level and points
+  int velX = 0, velY = 0, bossMove = 1, playerPP = 10, level = 1, points = 0; //player's x and y velocity, boss's velocity, player power points, level and points
   String userName; //user's name
   boolean gameBeaten = false; //keeps track if the game has been beaten or not
   Player player = new Player(); //Player's object
