@@ -8,6 +8,10 @@ The `scores.txt` file keeps a scorebaord of the top 10 games played.
 The `Previous Battle.txt` records the set team from the previous game played.
 _Feel free to take a look!_
 
+### Controls
+Arrow keys to move Pikachu
+Space Bar to shoot you projectiles
+
 ### Code Features: JAVA
 * Basic GUI
 * Animations
@@ -17,3 +21,8 @@ _Feel free to take a look!_
 * Randomization
 * File I/O
 * Music
+
+### Screenshots
+![Early Game](https://github.com/KenTjie/battle-simulator/blob/master/screenshots/early%20game.png)
+![Mid Game](https://github.com/KenTjie/battle-simulator/blob/master/screenshots/mid%20game.png)
+![Late Game](https://github.com/KenTjie/battle-simulator/blob/master/screenshots/late%20game.png)
