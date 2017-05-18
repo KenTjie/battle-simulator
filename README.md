@@ -1,6 +1,8 @@
 # The Battle Simulator / Battle!
 This project was created at the end of Grade 12 as a final culmination project for the material learned in Grade 12. I also took this as a personal project as I tried to apply some of my own self-taught knowledge in this game. I'm always looking to improve it.
 
+Notes: As of now, this can only be played on an IDE as I haven't been successful in creating a running jar file. Just run the BattlePlayer.java file.
+
 #### What is it?
 *The Battle Simulator or Battle!* is a Pokemon themed game. It's not so much an actual battle simulator, but more like a horizontal shooter game that uses the formulas from the official games. There are a total of 6 levels in the game, with each one becoming more difficult. All games played feature a randomly selected team, so no two games are alike. 
 
