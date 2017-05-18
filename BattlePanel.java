@@ -25,7 +25,7 @@ import java.io.PrintWriter;
 import java.io.FileNotFoundException;
 
 public class BattlePanel extends JPanel implements ActionListener, KeyListener {
-  int velX = 0, velY = 0, bossMove = 1, playerPP = 10, level = 4, points = 0; //player's x and y velocity, boss's velocity, player power points, level and points
+  int velX = 0, velY = 0, bossMove = 1, playerPP = 10, level = 6, points = 0; //player's x and y velocity, boss's velocity, player power points, level and points
   String userName; //user's name
   boolean gameBeaten = false; //keeps track if the game has been beaten or not
   Player player = new Player(); //Player's object
@@ -52,11 +52,11 @@ public class BattlePanel extends JPanel implements ActionListener, KeyListener {
     JOptionPane.showMessageDialog(null, "Your job is to win the battle! \nIf you lose, you'll lose money and black out!");
     JOptionPane.showMessageDialog(null, "It's a 6 vs. 1 battle, don't mess up!");
     JOptionPane.showMessageDialog(null, "Arrow keys are to move Pikachu. Space is to shoot your attack.");
-    JOptionPane.showMessageDialog(null, "You start off with 10 PP (power points) which is how many times you can shoot.\n You must keep track of how many shot you have!");
+    JOptionPane.showMessageDialog(null, "You start off with 10 PP (power points) which is how many times you can shoot.\n You must keep track of how many shots you have!");
     JOptionPane.showMessageDialog(null, "Several items will pop up on your side of the field:\nThe Leppa Berry is red and will add 3 PP.\nThe Sitrus Berry is yellow and will add 50 HP to Pikachu.\nThe coins will add 10 to your score.");
     JOptionPane.showMessageDialog(null, "the more points you gain, the higher you can be on the leaderboards so collect!");
     JOptionPane.showMessageDialog(null, "IMPORTANT NOTE: Don't press another arrow key without letting go of the previous one \nor else Pikachu will stop until you press again.");
-    JOptionPane.showMessageDialog(null, "You can't go off screen or too far to the right");
+    JOptionPane.showMessageDialog(null, "You can't go off screen or too far to the right.");
     JOptionPane.showMessageDialog(null, "Also, go to the music folder to play the music manually, it ups the action!");
     JOptionPane.showMessageDialog(null, "", "!!!", JOptionPane.PLAIN_MESSAGE, new ImageIcon("vs..png"));
     
